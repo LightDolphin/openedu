@@ -1,0 +1,16 @@
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\Images\Digger.png
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\Images\Gold.png
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\Images\Monster.png
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\Images\Sack.png
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\Images\Terrain.png
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\11-digger.exe.config
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\11-digger.exe
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\11-digger.pdb
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\bin\Debug\nunit.framework.dll
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\obj\Debug\Digger.csprojAssemblyReference.cache
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\obj\Debug\Digger.Properties.Resources.resources
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\obj\Debug\Digger.csproj.GenerateResource.cache
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\obj\Debug\Digger.csproj.CoreCompileInputs.cache
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\obj\Debug\Digger.csproj.CopyComplete
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\obj\Debug\11-digger.exe
+C:\Users\Bondarchuk_AV\source\repos\LightDolphin\openedu\Inheritance\digger.csproj\obj\Debug\11-digger.pdb
