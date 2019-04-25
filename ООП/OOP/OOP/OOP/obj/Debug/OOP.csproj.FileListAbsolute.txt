@@ -1,0 +1,7 @@
+D:\Courses_and_others\openedu\ООП\OOP\OOP\OOP\bin\Debug\OOP.exe.config
+D:\Courses_and_others\openedu\ООП\OOP\OOP\OOP\bin\Debug\OOP.exe
+D:\Courses_and_others\openedu\ООП\OOP\OOP\OOP\bin\Debug\OOP.pdb
+D:\Courses_and_others\openedu\ООП\OOP\OOP\OOP\obj\Debug\OOP.csprojAssemblyReference.cache
+D:\Courses_and_others\openedu\ООП\OOP\OOP\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+D:\Courses_and_others\openedu\ООП\OOP\OOP\OOP\obj\Debug\OOP.exe
+D:\Courses_and_others\openedu\ООП\OOP\OOP\OOP\obj\Debug\OOP.pdb

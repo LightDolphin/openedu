@@ -1,0 +1,7 @@
+D:\Courses_and_others\openedu\Ветвления\Rectangles.csproj\bin\Debug\Rectangles.exe.config
+D:\Courses_and_others\openedu\Ветвления\Rectangles.csproj\bin\Debug\Rectangles.exe
+D:\Courses_and_others\openedu\Ветвления\Rectangles.csproj\bin\Debug\Rectangles.pdb
+D:\Courses_and_others\openedu\Ветвления\Rectangles.csproj\bin\Debug\TestingRoom.dll
+D:\Courses_and_others\openedu\Ветвления\Rectangles.csproj\obj\Debug\Rectangles.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Ветвления\Rectangles.csproj\obj\Debug\Rectangles.exe
+D:\Courses_and_others\openedu\Ветвления\Rectangles.csproj\obj\Debug\Rectangles.pdb

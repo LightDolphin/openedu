@@ -1,0 +1,10 @@
+D:\Courses_and_others\openedu\Ошибки\bin\Debug\AngryBirds.exe.config
+D:\Courses_and_others\openedu\Ошибки\bin\Debug\AngryBirds.exe
+D:\Courses_and_others\openedu\Ошибки\bin\Debug\AngryBirds.pdb
+D:\Courses_and_others\openedu\Ошибки\bin\Debug\TestingRoom.dll
+D:\Courses_and_others\openedu\Ошибки\obj\Debug\AngryBirds.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Ошибки\obj\Debug\AngryBirds.exe
+D:\Courses_and_others\openedu\Ошибки\obj\Debug\AngryBirds.pdb
+D:\Courses_and_others\openedu\Ошибки\AngryBirds\bin\Debug\AngryBirds.exe.config
+D:\Courses_and_others\openedu\Ошибки\AngryBirds\obj\Debug\AngryBirds.exe
+D:\Courses_and_others\openedu\Ошибки\AngryBirds\obj\Debug\AngryBirds.pdb

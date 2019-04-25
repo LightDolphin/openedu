@@ -1,0 +1,11 @@
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\bin\Debug\TextAnalysis.exe.config
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\bin\Debug\HarryPotterText.txt
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\bin\Debug\TextAnalysis.exe
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\bin\Debug\TextAnalysis.pdb
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\bin\Debug\nunit.framework.dll
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\bin\Debug\nunitlite.dll
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\obj\Debug\TextAnalysis.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\obj\Debug\TextAnalysis.Properties.Resources.resources
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\obj\Debug\TextAnalysis.csproj.GenerateResource.Cache
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\obj\Debug\TextAnalysis.exe
+D:\Courses_and_others\openedu\Строки, коллекции\TextAnalysis.csproj\obj\Debug\TextAnalysis.pdb

@@ -1,0 +1,13 @@
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\obj\Debug\GeometryPainting.csprojAssemblyReference.cache
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\obj\Debug\GeometryPainting.Properties.Resources.resources
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\obj\Debug\GeometryPainting.csproj.GenerateResource.cache
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\obj\Debug\GeometryPainting.csproj.CoreCompileInputs.cache
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\bin\Debug\GeometryPainting.exe.config
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\bin\Debug\GeometryPainting.exe
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\bin\Debug\GeometryPainting.pdb
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\bin\Debug\OOP.exe
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\bin\Debug\OOP.pdb
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\bin\Debug\OOP.exe.config
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\obj\Debug\GeometryPainting.csproj.CopyComplete
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\obj\Debug\GeometryPainting.exe
+D:\Courses_and_others\openedu\ООП\GeometryPainting.csproj\obj\Debug\GeometryPainting.pdb

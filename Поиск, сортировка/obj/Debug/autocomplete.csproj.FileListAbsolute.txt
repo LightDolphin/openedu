@@ -1,0 +1,15 @@
+D:\Courses_and_others\openedu\Поиск, сортировка\bin\Debug\Autocomplete.exe.config
+D:\Courses_and_others\openedu\Поиск, сортировка\bin\Debug\dic\adjectives.txt
+D:\Courses_and_others\openedu\Поиск, сортировка\bin\Debug\dic\nouns.txt
+D:\Courses_and_others\openedu\Поиск, сортировка\bin\Debug\dic\verbs.txt
+D:\Courses_and_others\openedu\Поиск, сортировка\bin\Debug\Autocomplete.exe
+D:\Courses_and_others\openedu\Поиск, сортировка\bin\Debug\Autocomplete.pdb
+D:\Courses_and_others\openedu\Поиск, сортировка\bin\Debug\nunit.framework.dll
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\Autocomplete.AutocompleteForm.resources
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\Autocomplete.Properties.Resources.resources
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\autocomplete.csproj.GenerateResource.Cache
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\Autocomplete.exe
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\Autocomplete.pdb
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\autocomplete.csprojAssemblyReference.cache
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\autocomplete.csproj.CoreCompileInputs.cache
+D:\Courses_and_others\openedu\Поиск, сортировка\obj\Debug\autocomplete.csproj.CopyComplete

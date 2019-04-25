@@ -1,0 +1,7 @@
+D:\Courses_and_others\openedu\Ветвления\Distance.csproj\bin\Debug\Distance.exe.config
+D:\Courses_and_others\openedu\Ветвления\Distance.csproj\bin\Debug\Distance.exe
+D:\Courses_and_others\openedu\Ветвления\Distance.csproj\bin\Debug\Distance.pdb
+D:\Courses_and_others\openedu\Ветвления\Distance.csproj\bin\Debug\TestingRoom.dll
+D:\Courses_and_others\openedu\Ветвления\Distance.csproj\obj\Debug\Distance.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Ветвления\Distance.csproj\obj\Debug\Distance.exe
+D:\Courses_and_others\openedu\Ветвления\Distance.csproj\obj\Debug\Distance.pdb

@@ -1,0 +1,14 @@
+D:\Courses_and_others\Новая папка\Pluralize\bin\Debug\Pluralize.exe.config
+D:\Courses_and_others\Новая папка\Pluralize\bin\Debug\rubles.txt
+D:\Courses_and_others\Новая папка\Pluralize\bin\Debug\Pluralize.exe
+D:\Courses_and_others\Новая папка\Pluralize\bin\Debug\Pluralize.pdb
+D:\Courses_and_others\Новая папка\Pluralize\obj\Debug\Pluralize.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\Новая папка\Pluralize\obj\Debug\Pluralize.exe
+D:\Courses_and_others\Новая папка\Pluralize\obj\Debug\Pluralize.pdb
+D:\Courses_and_others\openedu\Pluralize\bin\Debug\rubles.txt
+D:\Courses_and_others\openedu\Pluralize\bin\Debug\Pluralize.exe.config
+D:\Courses_and_others\openedu\Pluralize\bin\Debug\Pluralize.exe
+D:\Courses_and_others\openedu\Pluralize\bin\Debug\Pluralize.pdb
+D:\Courses_and_others\openedu\Pluralize\obj\Debug\Pluralize.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Pluralize\obj\Debug\Pluralize.exe
+D:\Courses_and_others\openedu\Pluralize\obj\Debug\Pluralize.pdb

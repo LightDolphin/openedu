@@ -1,0 +1,9 @@
+D:\Courses_and_others\openedu\Массивы\Names.csproj\bin\Debug\names.txt
+D:\Courses_and_others\openedu\Массивы\Names.csproj\bin\Debug\Names.exe.config
+D:\Courses_and_others\openedu\Массивы\Names.csproj\bin\Debug\Names.exe
+D:\Courses_and_others\openedu\Массивы\Names.csproj\bin\Debug\Names.pdb
+D:\Courses_and_others\openedu\Массивы\Names.csproj\bin\Debug\ZedGraph.dll
+D:\Courses_and_others\openedu\Массивы\Names.csproj\bin\Debug\ZedGraph.xml
+D:\Courses_and_others\openedu\Массивы\Names.csproj\obj\Debug\Names.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Массивы\Names.csproj\obj\Debug\Names.exe
+D:\Courses_and_others\openedu\Массивы\Names.csproj\obj\Debug\Names.pdb

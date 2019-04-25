@@ -1,0 +1,7 @@
+D:\Courses_and_others\openedu\Ошибки\Billiards.csproj\bin\Debug\Billiards.exe.config
+D:\Courses_and_others\openedu\Ошибки\Billiards.csproj\bin\Debug\Billiards.exe
+D:\Courses_and_others\openedu\Ошибки\Billiards.csproj\bin\Debug\Billiards.pdb
+D:\Courses_and_others\openedu\Ошибки\Billiards.csproj\bin\Debug\TestingRoom.dll
+D:\Courses_and_others\openedu\Ошибки\Billiards.csproj\obj\Debug\Billiards.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Ошибки\Billiards.csproj\obj\Debug\Billiards.exe
+D:\Courses_and_others\openedu\Ошибки\Billiards.csproj\obj\Debug\Billiards.pdb

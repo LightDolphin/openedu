@@ -1,0 +1,7 @@
+D:\Courses_and_others\openedu\Сложность алгоритмов\bin\Debug\Recognizer.exe.config
+D:\Courses_and_others\openedu\Сложность алгоритмов\bin\Debug\eurobot.bmp
+D:\Courses_and_others\openedu\Сложность алгоритмов\bin\Debug\Recognizer.exe
+D:\Courses_and_others\openedu\Сложность алгоритмов\bin\Debug\Recognizer.pdb
+D:\Courses_and_others\openedu\Сложность алгоритмов\obj\Debug\Image.csprojResolveAssemblyReference.cache
+D:\Courses_and_others\openedu\Сложность алгоритмов\obj\Debug\Recognizer.exe
+D:\Courses_and_others\openedu\Сложность алгоритмов\obj\Debug\Recognizer.pdb
