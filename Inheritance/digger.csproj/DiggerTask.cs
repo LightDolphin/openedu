@@ -29,13 +29,12 @@ namespace Digger
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            if (conflictedObject.GetImageFileName() != "Monster.png") return false;
-            return true;
+            return conflictedObject.GetImageFileName() == "Monster.png";
         }
 
         public int GetDrawingPriority()
         {
-            return 0;
+            return 3;
         }
 
         public string GetImageFileName()
@@ -57,7 +56,7 @@ namespace Digger
 
         public int GetDrawingPriority()
         {
-            return 0;
+            return 1;
         }
 
         public string GetImageFileName()
@@ -66,25 +65,41 @@ namespace Digger
         }
     }
 
-    class Sack : ICreature
+    public class Sack : ICreature
     {
+        private int Count=0;
         public CreatureCommand Act(int x, int y)
         {
-            if (Game.Map[x,y].GetImageFileName==)
+            if (y < Game.MapHeight - 1 && Game.Map[x, y + 1] == null)
+            {
+                Count++;
+                return new CreatureCommand() { DeltaY = 1 };
+            }
+            return new CreatureCommand();
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
+            if (Count > 1)
+                if (conflictedObject.GetImageFileName() == "Digger.png")
+                {
+                    Game.Scores += 10;
+                    return true;
+                }
             return false;
         }
 
         public int GetDrawingPriority()
         {
-            return 1;
+            return 4;
         }
 
         public string GetImageFileName()
         {
+            if (Count > 1)
+            {
+                return "Gold.png";
+            }
             return "Sack.png";
         }
     }
@@ -93,22 +108,27 @@ namespace Digger
     {
         public CreatureCommand Act(int x, int y)
         {
-            throw new NotImplementedException();
+            return new CreatureCommand();
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            throw new NotImplementedException();
+            if (conflictedObject.GetImageFileName() == "Digger.png")
+            {
+                Game.Scores += 10;
+                return true;
+            }
+            return false;
         }
 
         public int GetDrawingPriority()
         {
-            throw new NotImplementedException();
+            return 2;
         }
 
         public string GetImageFileName()
         {
-            throw new NotImplementedException();
+            return "Gold.png";
         }
     }
 }
