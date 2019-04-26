@@ -16,21 +16,28 @@ namespace Digger
             switch (Game.KeyPressed)
             {
                 case System.Windows.Forms.Keys.Right:
-                    if (x<Game.MapWidth-1 && !(Game.Map[x+1,y] is Sack)) return new CreatureCommand() {DeltaX=1 };break;
+                    if (x<Game.MapWidth-1 && !(Game.Map[x+1,y] is Sack))
+                        return new CreatureCommand() {DeltaX=1 };
+                    break;
                 case System.Windows.Forms.Keys.Left:
-                    if (x > 0 && !(Game.Map[x - 1, y] is Sack)) return new CreatureCommand() { DeltaX = -1 }; break;
+                    if (x > 0 && !(Game.Map[x-1, y] is Sack))
+                        return new CreatureCommand() { DeltaX = -1 };
+                    break;
                 case System.Windows.Forms.Keys.Up:
-                    if (y > 0 && !(Game.Map[x, y-1] is Sack)) return new CreatureCommand() { DeltaY = -1 }; break;
+                    if (y > 0 && !(Game.Map[x, y-1] is Sack))
+                        return new CreatureCommand() { DeltaY = -1 };
+                    break;
                 case System.Windows.Forms.Keys.Down:
-                    if (y < Game.MapHeight-1 && !(Game.Map[x, y+1] is Sack)) return new CreatureCommand() { DeltaY = 1 }; break;
+                    if (y < Game.MapHeight-1 && !(Game.Map[x, y+1] is Sack))
+                        return new CreatureCommand() { DeltaY = 1 };
+                    break;
             }
             return new CreatureCommand();
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            //return conflictedObject is Monster;
-            return false;
+            return conflictedObject is Sack;
         }
 
         public int GetDrawingPriority()
@@ -43,6 +50,7 @@ namespace Digger
             return "Digger.png";
         }
     }
+
     class Terrain : ICreature
     {
         public CreatureCommand Act(int x, int y)
@@ -68,25 +76,31 @@ namespace Digger
 
     public class Sack : ICreature
     {
-        private int Count=0;
+        private int count=0;
         public CreatureCommand Act(int x, int y)
         {
-            if (y < Game.MapHeight - 1 && (Game.Map[x, y + 1] == null || Game.Map[x,y+1] is Player))
+            if ((count>1) && 
+                (
+                (y == Game.MapHeight - 1) || 
+                (Game.Map[x, y + 1] != null && !(Game.Map[x, y + 1] is Player))
+                )
+                )
+                return new CreatureCommand() { TransformTo = new Gold() };
+            if (y < Game.MapHeight - 1)
             {
-                Count++;
-                return new CreatureCommand() { DeltaY = 1 };
+                if (Game.Map[x, y + 1] == null || (Game.Map[x, y + 1] is Player && count > 0))
+                {
+                    count++;
+                    return new CreatureCommand() { DeltaY = 1 };
+                }
+                else if (count < 2) count = 0;
             }
+
             return new CreatureCommand();
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            if (Count > 1)
-                if (conflictedObject is Player)
-                {
-                    Game.Scores += 10;
-                    return true;
-                }
             return false;
         }
 
@@ -97,10 +111,6 @@ namespace Digger
 
         public string GetImageFileName()
         {
-            if (Count > 1)
-            {
-                return "Gold.png";
-            }
             return "Sack.png";
         }
     }
