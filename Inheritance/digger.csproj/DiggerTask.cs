@@ -16,20 +16,21 @@ namespace Digger
             switch (Game.KeyPressed)
             {
                 case System.Windows.Forms.Keys.Right:
-                    if (x<Game.MapWidth-1) return new CreatureCommand() {DeltaX=1 };break;
+                    if (x<Game.MapWidth-1 && !(Game.Map[x+1,y] is Sack)) return new CreatureCommand() {DeltaX=1 };break;
                 case System.Windows.Forms.Keys.Left:
-                    if (x > 0) return new CreatureCommand() { DeltaX = -1 }; break;
+                    if (x > 0 && !(Game.Map[x - 1, y] is Sack)) return new CreatureCommand() { DeltaX = -1 }; break;
                 case System.Windows.Forms.Keys.Up:
-                    if (y > 0) return new CreatureCommand() { DeltaY = -1 }; break;
+                    if (y > 0 && !(Game.Map[x, y-1] is Sack)) return new CreatureCommand() { DeltaY = -1 }; break;
                 case System.Windows.Forms.Keys.Down:
-                    if (y < Game.MapHeight-1) return new CreatureCommand() { DeltaY = 1 }; break;
+                    if (y < Game.MapHeight-1 && !(Game.Map[x, y+1] is Sack)) return new CreatureCommand() { DeltaY = 1 }; break;
             }
             return new CreatureCommand();
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            return conflictedObject.GetImageFileName() == "Monster.png";
+            //return conflictedObject is Monster;
+            return false;
         }
 
         public int GetDrawingPriority()
@@ -51,7 +52,7 @@ namespace Digger
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            return true;
+            return conflictedObject is Player;
         }
 
         public int GetDrawingPriority()
@@ -70,7 +71,7 @@ namespace Digger
         private int Count=0;
         public CreatureCommand Act(int x, int y)
         {
-            if (y < Game.MapHeight - 1 && Game.Map[x, y + 1] == null)
+            if (y < Game.MapHeight - 1 && (Game.Map[x, y + 1] == null || Game.Map[x,y+1] is Player))
             {
                 Count++;
                 return new CreatureCommand() { DeltaY = 1 };
@@ -81,7 +82,7 @@ namespace Digger
         public bool DeadInConflict(ICreature conflictedObject)
         {
             if (Count > 1)
-                if (conflictedObject.GetImageFileName() == "Digger.png")
+                if (conflictedObject is Player)
                 {
                     Game.Scores += 10;
                     return true;
@@ -113,7 +114,7 @@ namespace Digger
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            if (conflictedObject.GetImageFileName() == "Digger.png")
+            if (conflictedObject is Player)
             {
                 Game.Scores += 10;
                 return true;
